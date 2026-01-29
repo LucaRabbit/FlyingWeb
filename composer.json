@@ -1,0 +1,21 @@
+{
+    "name": "lucar/flying_web",
+    "description": "Application MVC Flying Web pour la gestion de vols et réservations.",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Luca Ramampy",
+            "email": "luca.ramampy@viacesi.fr"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^7.0",
+        "vlucas/phpdotenv": "^5.6",
+        "tecnickcom/tcpdf": "^6.10"
+    }
+}
